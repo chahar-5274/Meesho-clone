@@ -1,0 +1,617 @@
+.nav-bar {
+  width: 100%;
+  height: 75px;
+  background-color: rgb(248, 248, 255);
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-logo {
+  width: 160px;
+  height: 70px;
+  background-image: url("images/logo.jpg");
+  background-size: cover;
+  align-items: center;
+  margin: right 18px;
+}
+.search-bar {
+  width: 550px;
+  height: 45px;
+  border: 1px solid orange margin 13px;
+}
+.search-input {
+  width: 450px;
+  height: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.magnify {
+  padding: 11px;
+  margin-top: 13px;
+  align-items: center;
+  border: 1px solid black;
+}
+.magnify i {
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  margin-right: 8px;
+}
+.border {
+  border: 1px solid rgb(119, 118, 116);
+}
+
+.app-icon {
+  width: 55px;
+  height: 72px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.icon {
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: 25px;
+}
+.app-tittle {
+  margin-top: 10px;
+  color: #353543;
+  font-size: 1.1rem;
+}
+.second-icon {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.tittle {
+  width: 65px;
+  height: 60px;
+  color: #353543;
+  font-size: 1.2rem;
+}
+
+.news-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.news-tittle {
+  width: 80px;
+  height: 20px;
+  color: #353543;
+  font-size: 1.3rem;
+}
+.profile-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 72px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+h4 {
+  width: 45px;
+  height: 20px;
+  margin-bottom: 25px;
+  color: #353543;
+  font-size: 1.1rem;
+}
+.profile i {
+  width: 18px;
+  height: 18px;
+  margin-top: 20px;
+  margin-left: 12px;
+  font-size: 1.1rem;
+}
+.profile {
+  margin-right: 40px;
+}
+
+.cart i {
+  width: 18px;
+  height: 12px;
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+h5 {
+  width: 34px;
+  height: 20px;
+  font-size: 1.1rem;
+}
+.desktop-navbar {
+  width: 100%;
+  height: 55px;
+  background-color: rgb(248, 248, 255);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+}
+.women1 {
+  width: 74px;
+  height: 40px;
+  color: #353543;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+.women2 {
+  width: 74px;
+  height: 40px;
+  color: #353543;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+.men {
+  width: 74px;
+  height: 40px;
+  color: #353543;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.kids {
+  width: 74px;
+  height: 40px;
+  color: #353543;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+.home {
+  width: 74px;
+  height: 40px;
+  color: #353543;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+.beauty {
+  width: 74px;
+  height: 40px;
+  color: #353543;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+.jewellery {
+  width: 74px;
+  height: 40px;
+  color: #353543;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+.bags {
+  width: 74px;
+  height: 40px;
+  color: #353543;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+.electronics {
+  width: 74px;
+  height: 40px;
+  color: #353543;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+.video-banner {
+  width: 1500px;
+  height: 650px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.text-conainer {
+  width: 460px;
+  height: 400px;
+}
+.image {
+  width: 60%;
+  height: 500px;
+  background-image: url("images/image2.jpg");
+  background-size: cover;
+  padding-bottom: 40px;
+  padding-right: 45px;
+}
+.text-box {
+  width: 40%;
+  height: 500px;
+  font-size: 45px;
+  font-weight: bold;
+  color: #353543;
+  padding: 40px 45px 40px 48px;
+  background-color: rgb(248, 248, 255);
+}
+
+.video-banner-wrapper {
+  width: 450px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 70px;
+}
+.delivery {
+  width: 150px;
+  height: 40px;
+  margin-left: 40px;
+  margin-right: 25px;
+  font-size: 20px;
+}
+.cash {
+  width: 150px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 25px;
+  font-size: 20px;
+}
+.return {
+  width: 150px;
+  height: 40px;
+  margin-left: 50px;
+  margin-right: 25px;
+  font-size: 20px;
+}
+.ads-app {
+  width: 320px;
+  height: 50px;
+  background-color: #9f2089;
+  font-size: 25px;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-right: 28px;
+  padding-bottom: 10px;
+  padding-left: 28px;
+  color: white;
+  margin-left: 90px;
+}
+.tittle1 {
+  width: 100%;
+  height: 88px;
+  color: #353543;
+  font-size: 36px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  font-weight: 700;
+}
+.box2 {
+  width: 80%;
+  height: 561px;
+  margin: 48px 0px 60px;
+  padding: 90px 24px 35px 24px;
+  background-color: grey;
+  display: flex;
+  margin-left: 90px;
+}
+.image1 {
+  width: 400px;
+  height: 440px;
+  background-image: url("images/image17.webp");
+  background-size: cover;
+  margin: 30px;
+}
+.image2 {
+  width: 312px;
+  height: 291px;
+  background-image: url("images/image16.webp");
+  background-size: cover;
+  margin-right: 30px;
+  margin-top: 110px;
+}
+.image3 {
+  width: 312px;
+  height: 291px;
+  background-image: url("images/image18.webp");
+  background-size: cover;
+  margin-top: 110px;
+  margin-right: 40px;
+}
+.hero-section {
+  width: 1485px;
+  height: 525px;
+  background-image: url("images/hero-image.webp");
+  background-size: cover;
+  display: flex;
+  margin-left: 90px;
+}
+.hero-content h3 {
+  width: 563px;
+  height: 40px;
+  color: #5585f8;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+.hero-content h2 {
+  width: 563px;
+  height: 52px;
+  color: #9f2089;
+  font-size: 48px;
+}
+.all-content {
+  width: 660px;
+  height: 356px;
+  padding: 48px;
+  margin-left: 500px;
+}
+p {
+  width: 100%;
+  height: 40px;
+  font-size: 32px;
+  color: #353543;
+  padding: 0px 0px 28px 15px;
+  margin-left: 20px;
+}
+.main-content-box {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  background-color: rgb(248, 248, 255);
+  display: flex;
+  justify-content: space-evenly;
+}
+.necklace {
+  width: 181px;
+  height: 272px;
+  background-image: url("images/image10.jpg");
+  background-size: cover;
+  background-color: white;
+}
+.necklace-text {
+  width: 158px;
+  height: 158px;
+  padding: 12px;
+  font-size: 20px;
+}
+.rating {
+  width: 64px;
+  height: 25px;
+  padding: 4px 8px;
+  background-color: #23bb75;
+  border-radius: 18px;
+}
+.watch {
+  width: 190px;
+  height: 272px;
+  background-image: url("images/image6.jpg");
+  background-size: cover;
+}
+.watch-text {
+  width: 158px;
+  height: 158px;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.kids-watch {
+  width: 240px;
+  height: 272px;
+  background-image: url("images/image5.jpg");
+  background-size: cover;
+}
+.kids-watch-text {
+  width: 158px;
+  height: 158px;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.t-shirt {
+  width: 240px;
+  height: 272px;
+  background-image: url("images/image9.jpg");
+  background-size: cover;
+}
+.t-shirt-text {
+  width: 158px;
+  height: 158px;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.main-content-box2 {
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  background-color: rgb(248, 248, 255);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.girls-t-shirt {
+  width: 240px;
+  height: 272px;
+  background-image: url("images/image3.jpg");
+  background-size: cover;
+}
+.girls-t-shirt-text {
+  width: 158px;
+  height: 158px;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.blouse {
+  width: 275px;
+  height: 272px;
+  background-image: url("images/image7.jpg");
+  background-size: cover;
+  margin-right: 30px;
+}
+.blouse-text {
+  width: 158px;
+  height: 158px;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.plaazo {
+  width: 340px;
+  height: 340px;
+  background-image: url("images/image11.jpg");
+  background-size: cover;
+}
+.plaazo-text {
+  width: 158px;
+  height: 158px;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.gadget {
+  width: 275px;
+  height: 272px;
+  background-image: url("images/image4.jpg");
+  background-size: cover;
+  margin-left: 30px;
+}
+.gadget-text {
+  width: 158px;
+  height: 158px;
+  padding: 12px;
+  font-size: 20px;
+}
+.main-content-box3 {
+  width: 100%;
+  height: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  background-color: rgb(248, 248, 255);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.girls-skirt {
+  width: 240px;
+  height: 320px;
+  background-image: url("images/image12.jpg");
+  background-size: cover;
+}
+.girls-skirt-text {
+  width: 158px;
+  height: 158px;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.women-gadgets {
+  width: 275px;
+  height: 420px;
+  background-image: url("images/image13.jpg");
+  background-size: cover;
+  margin-right: 30px;
+}
+.women-gadgets-text {
+  width: 158px;
+  height: 158px;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.girls-plaazo {
+  width: 340px;
+  height: 420px;
+  background-image: url("images/image14.jpg");
+  background-size: cover;
+}
+.girls-plaazo-text {
+  width: 158px;
+  height: 158px;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.Saadi {
+  width: 275px;
+  height: 420px;
+  background-image: url("images/image15.jpg");
+  background-size: cover;
+  margin-left: 30px;
+}
+.Saadi-text {
+  width: 158px;
+  height: 158px;
+  padding: 12px;
+  font-size: 20px;
+}
+.footer {
+  width: 100%;
+  height: 207px;
+  padding: 60px 0px 40px 0px;
+  margin: 0px 22px 0px 22px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(248, 248, 255);
+}
+.foot-content p {
+  width: 400px;
+  height: 60px;
+  padding: 0px 0px 6px;
+  color: #616173;
+  font-size: 15px;
+  font-weight: 700;
+}
+.play-store-icon {
+  width: 190px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  font-size: 12px;
+}
+.play-store-icon i {
+  margin: 15px 15px 10px 15px;
+  font-size: 20px;
+}
+.icons {
+  width: 430px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.apple-store-icon {
+  width: 190px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  font-size: 12px;
+}
+.apple-store-icon i {
+  margin: 15px 15px 10px 15px;
+  font-size: 25px;
+}
+.footer-style1 {
+  width: 166px;
+  height: 167px;
+  margin-bottom: 40px;
+  padding: 0px 8px;
+  font-size: 18px;
+  color: #353543;
+}
+.footer-style2 {
+  width: 166px;
+  height: 167px;
+  margin-bottom: 40px;
+  padding: 0px 8px;
+  font-size: 18px;
+  color: #353543;
+}
